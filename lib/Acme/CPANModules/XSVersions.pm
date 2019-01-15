@@ -39,8 +39,8 @@ _
         {module=>'Crypt::XXTEA_PP', xs_module=>'Crypt::XXTEA_XS'},
         {module => 'DDC::PP', xs_module => 'DDC::XS'},
         {module => 'Crypt::Skip32', xs_module => 'Crypt::Skip32::XS'},
-        {module => 'Date::Calc', pp_module=>['Date::Calc::PP'], xs_module => 'Date::Calc::XS'},
-        {module => 'Directory::Iterator', pp_module=>['Directory::Iterator::PP'], xs_module => 'Directory::Iterator::XS'},
+        {module => 'Date::Calc', pp_module=>'Date::Calc::PP', xs_module => 'Date::Calc::XS'},
+        {module => 'Directory::Iterator', pp_module=>'Directory::Iterator::PP', xs_module => 'Directory::Iterator::XS'},
         {module => 'Encode', xs_module => 'Encode::XS'},
         {module => 'Encoding::FixLatin', xs_module => 'Encoding::FixLatin::XS'},
         {module => 'File::MMagic', xs_module => 'File::MMagic::XS'},
@@ -51,7 +51,7 @@ _
         {module => 'HTTP::Parser::XS::PP', xs_module => 'HTTP::Parser::XS'},
         {module => 'Heap::Simple', xs_module => 'Heap::Simple::XS'},
         {module => 'Image::Info', xs_module => 'Image::Info::XS'},
-        {module => 'JSON::PP', pp_module=>['JSON'], xs_module => 'JSON::XS'},
+        {module => 'JSON::PP', pp_module=>'JSON', xs_module => 'JSON::XS'},
         {module =>'Language::Befunge::Vector', xs_module => 'Language::Befunge::Vector::XS'},
         {module => 'Language::Befunge::Storage::Generic::Vec', xs_module => 'Language::Befunge::Storage::Generic::Vec::XS'},
         {module => 'List::BinarySearch', xs_module => 'List::BinarySearch::XS'},
@@ -101,6 +101,7 @@ _
         {module => 'YAML::PP', xs_module => 'YAML::XS'},
         # ZooKeeper & ZooKeeper::XS?
         {module => 'match::simple', xs_module => 'match::simple::XS'},
+
     ],
 };
 
