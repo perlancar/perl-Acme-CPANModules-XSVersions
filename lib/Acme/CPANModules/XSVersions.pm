@@ -1,10 +1,14 @@
 package Acme::CPANModules::XSVersions;
 
+use strict;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
-    summary => 'XS versions of Perl modules',
+    summary => 'List of XS versions of Perl modules',
     description => <<'_',
 
 This list catalogs (pure-) Perl modules that have their XS counterparts ("fast
