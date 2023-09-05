@@ -124,3 +124,8 @@ To install all XS versions of PP modules currently installed on your system:
 (Note: To run the above snippet, you need to install
 L<Acme::CPANModules::XSVersions> which you're reading right now, as well as
 L<Acme::CM::Get>, L<Module::Installed::Tiny>, and L<cpanm>.)
+
+
+=head1 append:SEE ALSO
+
+L<Missing::XS>
