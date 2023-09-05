@@ -8,7 +8,7 @@ use strict;
 # VERSION
 
 our $LIST = {
-    summary => 'List of XS versions of Perl modules',
+    summary => 'List of Perl modules which have XS implementation or backend',
     description => <<'_',
 
 This list catalogs (pure-) Perl modules that have their XS counterparts ("fast
