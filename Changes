@@ -5,6 +5,8 @@
         - Add entries from Missing::XS: JSON::MaybeXS, Moo, Object::Adhoc,
           Object::Accessor, PPI, Type::Params (from Missing::XS).
 
+        - [doc] Show XS module & PP module of each entry.
+
         - [doc] Tweak summary/Abstract.
 
         - [doc] Mention Missing::XS.
