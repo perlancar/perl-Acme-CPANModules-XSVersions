@@ -56,6 +56,7 @@ _
         {module => 'Heap::Simple', xs_module => 'Heap::Simple::XS'},
         {module => 'Image::Info', xs_module => 'Image::Info::XS'},
         {module => 'JSON', pp_module=>'JSON::PP', xs_module => 'JSON::XS'},
+        {module => 'JSON::MaybeXS', xs_module => 'Cpanel::JSON::XS'},
         {module =>'Language::Befunge::Vector', xs_module => 'Language::Befunge::Vector::XS'},
         {module => 'Language::Befunge::Storage::Generic::Vec', xs_module => 'Language::Befunge::Storage::Generic::Vec::XS'},
         {module => 'List::BinarySearch', xs_module => 'List::BinarySearch::XS'},
@@ -69,9 +70,13 @@ _
         {module => 'Math::Utils', xs_module => 'Math::Utils::XS'},
         {module => 'MaxMind::DB::Reader', xs_module => 'MaxMind::DB::Reader::XS'},
         {module => 'Mojo::Base', xs_module => 'Mojo::Base::XS'},
+        {module => 'Moo', xs_module => 'Class::XSAccessor'},
+        # TODO: Mouse
         {module => 'Net::IP', xs_module => 'Net::IP::XS'},
         {module => 'Net::SNMP', xs_module => 'Net::SNMP::XS'},
         {module => 'Number::Closest', xs_module => 'Number::Closest::XS'},
+        {module => 'Object::Adhoc', xs_module => 'Class::XSAccessor'},
+        {module => 'Object::Accessor', xs_module => 'Object::Accessor::XS'},
         {module => 'Object::Tiny', xs_module => 'Object::Tiny::XS'},
         {module => 'Object::Tiny::RW', xs_module => 'Object::Tiny::RW::XS'},
         {module => 'PPI', xs_module => 'PPI::XS'},
@@ -80,6 +85,7 @@ _
         {module => 'Path::Hilbert', xs_module => 'Path::Hilbert::XS'},
         {module => 'PerlX::ArraySkip', xs_module => 'PerlX::ArraySkip::XS'},
         {module => 'PerlX::Maybe', xs_module => 'PerlX::Maybe::XS'},
+        {module => 'PPI', xs_module => 'PPI::XS'},
         {module => 'Protocol::Redis', xs_module => 'Protocol::Redis::XS'},
         {module => 'Readonly', xs_module => 'Readonly::XS'},
         {module => 'Ref::Util', xs_module => 'Ref::Util::XS'},
@@ -94,6 +100,7 @@ _
         # Text::Levenshtein & Text::Levenshtein::XS are different modules
         {module => 'Text::Levenshtein::Damerau', xs_module => 'Text::Levenshtein::Damerau::XS'},
         {module => 'Time::Format', xs_module => 'Time::Format_XS'},
+        {module => 'Type::Params', xs_module => 'Class::XSAccessor'},
         {module => 'Type::Tiny', xs_module => 'Type::Tiny::XS'},
         # Tree::Binary & Tree::Binary::XS are different modules
         {module => 'Tree::Object', xs_module => 'Tree::ObjectXS'},
