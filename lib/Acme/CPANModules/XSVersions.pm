@@ -55,7 +55,7 @@ _
         {module => 'HTTP::Parser::XS::PP', xs_module => 'HTTP::Parser::XS'},
         {module => 'Heap::Simple', xs_module => 'Heap::Simple::XS'},
         {module => 'Image::Info', xs_module => 'Image::Info::XS'},
-        {module => 'JSON::PP', pp_module=>'JSON', xs_module => 'JSON::XS'},
+        {module => 'JSON', pp_module=>'JSON::PP', xs_module => 'JSON::XS'},
         {module =>'Language::Befunge::Vector', xs_module => 'Language::Befunge::Vector::XS'},
         {module => 'Language::Befunge::Storage::Generic::Vec', xs_module => 'Language::Befunge::Storage::Generic::Vec::XS'},
         {module => 'List::BinarySearch', xs_module => 'List::BinarySearch::XS'},
